@@ -21,6 +21,12 @@ body {
   width: 50%;
   margin: 0 auto;
 }
+.col-xs-5 {
+  width: 41.66666667%;
+}
+.col-xs-7 {
+  size: cover;
+}
 
 .title-container {
   height: 90vh;
@@ -57,6 +63,7 @@ body {
   padding-top: 100px;
   padding-left: 50px;
   max-width: 100%;
+  max-height: 100%;
 }
 
 input[type="text"] {
@@ -101,10 +108,13 @@ button:active {
 }
 
 .weather__info {
-  width: 60%;
+  max-width: 60%;
+  min-width: 60%;
+  max-height: 100%;
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 2px;
+  size: cover;
 }
 
 .weather__key {
@@ -112,6 +122,7 @@ button:active {
   border-bottom: solid 2px rgba(255,255,255,0.06);
   padding: 20px 0 20px 0;
   font-weight: 400;
+  max-height: 100%;
 }
 
 .weather__key:last-child {
@@ -121,6 +132,8 @@ button:active {
 .weather__value {
   color: #fff;
   font-weight: 200;
+  max-height: 100%;
+  max-width: 100%;
 }
 
 .weather__error {
