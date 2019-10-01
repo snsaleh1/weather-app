@@ -27,8 +27,8 @@ class Weather extends React.Component {
                 </p>
                 }
                 {this.props.windSpeed && <p className="weather__key">Wind Speed:
-                    <span className="weather__value"> {this.props.tempHigh} mph</span>
-                </p>
+                    <span className="weather__value"> {this.props.windSpeed} mph</span>
+                </p>    
                 }
                 {this.props.description && <p className="weather__key">Description:
                     <span className="weather__value"> {this.props.description}</span>

@@ -18,7 +18,7 @@ body {
   height: 90vh;
   background: #fff;
   box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
-  width: 50%;
+  /* width: 50%; */
   margin: 0 auto;
 }
 .col-xs-5 {
@@ -60,7 +60,7 @@ body {
 .form-container {
   background-color: #0a2333; 
   height: 90vh;
-  padding-top: 100px;
+  padding-top: 15px;
   padding-left: 50px;
   max-width: 100%;
   max-height: 100%;

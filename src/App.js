@@ -31,7 +31,7 @@ class App extends React.Component {
       description: response.weather[0].description,
       error: ""
     })
-    console.log(response);
+    console.log(response, this.state.windSpeed);
   }
   render() {
     return(
