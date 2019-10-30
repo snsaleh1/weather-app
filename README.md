@@ -5,6 +5,7 @@
 - JavaScript
 - Heroku Deployment
 - Weather API
+- Medium article you can find [here](https://medium.com/@peterekeneeze/build-a-react-js-weather-app-with-stateless-functional-components-e61567004b54)
 
 [Try the live demo here](https://caleb-city-weather.herokuapp.com/)
 
